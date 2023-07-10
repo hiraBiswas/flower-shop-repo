@@ -69,49 +69,82 @@ body {
     background-color: rgba(229, 84, 115, 0.05);
     align-items: center;
     gap: 90px;
-    
+
 
 }
 
-.section-content{
+.section-content {
     width: 50%;
     text-align: center;
-    padding:230px 10px 180px 380px;
+    padding: 230px 10px 180px 380px;
 }
 
-.section-title{
+.section-title {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 
 }
 
-.section-description{
+.section-description {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-padding-top: 24px;
-padding-bottom: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-.section-img{
-    
+.section-img {
+
     padding: 100px 430px 100px 10px;
 
 }
 
 /*instagram section style */
-.insta-section{
+.insta-section {
     text-align: center;
     padding-top: 128px;
 }
 
 /*Picture Section style */
-.picture{
+.picture {
     display: flex;
     justify-content: space-around;
     gap: 20px;
     padding: 30px 240px 130px 240px;
-   margin-left:10px
+    margin-left: 10px
+}
+
+/*Latest deal section Style */
+.lastest-deal-section {
+    background-image: url("../Images/Rectangle 9.png");
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+#lastest-deal-title{
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+input{
+    width: 700px;
+    height: 66px;
+    border: none;
+    border-radius: 8px;
+background: #FFF;
+}
+
+.contact{
+    padding-top: 10px;
+    display: flex;
+    padding-left: 280px;
+    padding-right: 280px;
+    justify-content: space-around;
+    gap: 15px;
 }
