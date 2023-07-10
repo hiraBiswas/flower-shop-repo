@@ -79,7 +79,7 @@ body {
     padding:230px 10px 180px 380px;
 }
 
-.section-header{
+.section-title{
     color: #272727;
 font-size: 40px;
 font-weight: 800;
@@ -99,4 +99,19 @@ padding-bottom: 24px;
     
     padding: 100px 430px 100px 10px;
 
+}
+
+/*instagram section style */
+.insta-section{
+    text-align: center;
+    padding-top: 128px;
+}
+
+/*Picture Section style */
+.picture{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 30px 240px 130px 240px;
+   margin-left:10px
 }
