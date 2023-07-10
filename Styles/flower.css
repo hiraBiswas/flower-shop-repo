@@ -126,25 +126,82 @@ body {
     margin-right: 240px;
 }
 
-#lastest-deal-title{
+#lastest-deal-title {
     text-align: center;
     padding-top: 150px;
-    
+
 }
 
-input{
+input {
     width: 700px;
     height: 66px;
     border: none;
     border-radius: 8px;
-background: #FFF;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 22px;
+    text-align: left;
 }
 
-.contact{
+.contact {
     padding-top: 10px;
     display: flex;
     padding-left: 280px;
     padding-right: 280px;
     justify-content: space-around;
     gap: 15px;
+}
+
+/*Style Footer Section"*/
+
+.footer-section {
+    width: 1920px;
+    height: 440px;
+    background: #111010;
+    color: #FFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+span {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-section {
+    margin-top: 130px;
+    padding-top: 128px;
+}
+
+.footer-description{
+    padding-top: 32px;
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+
+#footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+padding-top: 32px;
+    
 }
