@@ -57,3 +57,46 @@ body {
     padding-top: 50px;
     padding-right: 220px;
 }
+
+/*main Section Style */
+/*sale Section */
+.sale-section {
+    margin-top: 128px;
+    display: flex;
+    width: 1920px;
+    height: 620px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    gap: 90px;
+    
+
+}
+
+.section-content{
+    width: 50%;
+    text-align: center;
+    padding:230px 10px 180px 380px;
+}
+
+.section-header{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+
+}
+
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.section-img{
+    
+    padding: 100px 430px 100px 10px;
+
+}
