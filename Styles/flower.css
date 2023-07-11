@@ -64,7 +64,7 @@ body {
 
 
 #featured-flower-title{
-    color: #272727;
+color: #272727;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
@@ -73,40 +73,42 @@ padding-top: 170px;
 
 }
 
+.featured-flower-section{
+    width: 1920px;
+    border: #111010 1px solid ;
+}
+
 .featured-flower-images{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: #111010 1px solid ;
-    margin: 0px 200px;
+    padding: 0px 200px;
     width: 1440px;
 }
 
 #feature-image-1{
     background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    width: 344px;
-    height: 520px;
+    width: 300px;
+    height: 490px;
     padding: 100px 70px 0px 70px;
     
 }
 
 #feature-image-2{
-    width: 464px;
-height: 562px;
+    width: 430px;
+height: 550px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 30px 20px 30px 20px;
   
-
-
 }
 
 #feature-image-3{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    width: 464px;
-    height: 625px;
+    width: 430px;
+    height: 600px;
    padding: 20px 10px 0px 10x;
     
 
