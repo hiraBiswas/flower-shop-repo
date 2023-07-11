@@ -59,6 +59,61 @@ body {
 }
 
 /*main Section Style */
+
+/*featured Flower Section style*/
+
+
+#featured-flower-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+padding-top: 170px;
+
+
+}
+
+.featured-flower-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: #111010 1px solid ;
+    margin: 0px 200px;
+    width: 1440px;
+}
+
+#feature-image-1{
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 344px;
+    height: 520px;
+    padding: 100px 70px 0px 70px;
+    
+}
+
+#feature-image-2{
+    width: 464px;
+height: 562px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 30px 20px 30px 20px;
+  
+
+
+}
+
+#feature-image-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 625px;
+   padding: 20px 10px 0px 10x;
+    
+
+
+}
+
+
 /*sale Section */
 .sale-section {
     margin-top: 128px;
@@ -112,8 +167,9 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 20px;
-    padding: 30px 240px 130px 240px;
-    margin-left: 10px
+   border: #111010 1px solid;
+   margin:10px 200px 130px 200px;
+   width: 1440px;
 }
 
 /*Latest deal section Style */
@@ -122,8 +178,8 @@ body {
     width: 1440px;
     height: 449px;
     border-radius: 8px;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 #lastest-deal-title {
